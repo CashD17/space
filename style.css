@@ -1,0 +1,596 @@
+/* =====================
+   RESET
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =====================
+   BODY
+===================== */
+.home {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  background-image: url(assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* =====================
+   TOP NAVBAR
+===================== */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 0 70px;
+}
+
+/* Logo */
+.left img {
+  width: 48px;
+}
+
+/* =====================
+   NAV GLASS BAR
+===================== */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  height: 90px;
+  width: 1100px;
+  padding-top: 40px;
+  padding-left: 120px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* Nav items */
+.right h2 {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Numbers */
+.right h2 span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* Active underline */
+.right h2.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+
+/* Hover underline */
+.right h2:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* =====================
+   MAIN SECTION
+===================== */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 200px 160px 0 160px;
+}
+
+/* =====================
+   LEFT TEXT
+===================== */
+.left2 {
+  max-width: 450px;
+}
+
+.left2 h3 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+.left2 h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 150px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.left2 p {
+  color: #d0d6f9;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* =====================
+   EXPLORE BUTTON
+===================== */
+.right2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right2 button {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  border: none;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+
+  background: white;
+  color: #0b0d17;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* Hover glow effect */
+.right2 button:hover {
+  box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+}
+
+
+/* =====================
+   RESET
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =====================
+   BODY
+===================== */
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  background-image: url(assets/destination/360_F_297059985_lRqYm1uVpgvHb9ecxKQnZDeM7shC9Sol.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+/* =====================
+   TOP NAVBAR
+===================== */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 0 70px;
+}
+
+/* Logo */
+.left img {
+  width: 48px;
+}
+
+/* =====================
+   NAV GLASS BAR
+===================== */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  height: 96px;
+  width: 1100px;
+  padding-left: 120px;
+  border-radius: 20px 0 0 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* Nav items */
+.right h2 {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Numbers */
+.right h2 span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* Active underline */
+.right h2.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+
+/* Hover underline */
+.right h2:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* =====================
+   MAIN DESTINATION LAYOUT
+===================== */
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 160px 0 160px;
+}
+
+/* =====================
+   LEFT SIDE (TITLE + PLANET)
+===================== */
+.left3 h2 {
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: 400;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+
+.left3 h2 span {
+  font-weight: 700;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+.left3 img {
+  width: 445px;
+}
+
+/* =====================
+   RIGHT SIDE
+===================== */
+.right3 {
+  max-width: 445px;
+}
+
+/* =====================
+   PLANET TABS
+===================== */
+.planets {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.planets h2 {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 12px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+/* Active planet */
+.planets h2.active {
+  color: white;
+}
+
+.planets h2.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+
+/* Hover underline */
+.planets h2:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* =====================
+   PLANET CONTENT
+===================== */
+.right3 h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.right3 p {
+  color: #d0d6f9;
+  line-height: 1.8;
+  font-size: 18px;
+  margin-bottom: 55px;
+}
+
+/* =====================
+   DISTANCE INFO
+===================== */
+.distance {
+  display: flex;
+  gap: 80px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.distance h3 {
+  font-size: 14px;
+  letter-spacing: 2.35px;
+  font-weight: 400;
+  color: #d0d6f9;
+  margin-bottom: 10px;
+}
+
+.distance h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+
+/* =====================
+   CREW BACKGROUND
+===================== */
+body.crew {
+  background-image: url("assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+body.tech {
+  background-image: url("assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* =====================
+   MAIN CREW LAYOUT
+===================== */
+.crews {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 120px 160px 0 160px;
+  min-height: calc(100vh - 150px);
+}
+
+/* =====================
+   LEFT SIDE CONTENT
+===================== */
+.crewcombined {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.crewcombined h2 {
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: 400;
+  margin-top: -160px;
+  text-transform: uppercase;
+}
+
+.crewcombined h2 span {
+  opacity: 0.4;
+  margin-right: 20px;
+}
+
+/* Role */
+.crewcombined h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Name */
+.crewcombined h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 64px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Description */
+.crewcombined p {
+  color: #D0D6F9;
+  line-height: 1.8;
+  max-width: 450px;
+  margin-bottom: 120px;
+  font-size: 18px;
+}
+
+/* =====================
+   DOT NAVIGATION
+===================== */
+.crewcombined div:last-child {
+  display: flex;
+  gap: 20px;
+}
+
+.crewcombined div:last-child a {
+  margin-top: -75px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.crewcombined div:last-child a:hover {
+  opacity: 0.7;
+}
+
+.crewcombined div:last-child a:first-child {
+  opacity: 1;
+}
+
+/* =====================
+   RIGHT SIDE IMAGE
+===================== */
+.crews img {
+  height: 600px;
+  object-fit: contain;
+}
+
+
+
+.techs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 120px 160px 0 160px;
+  min-height: calc(100vh - 150px);
+}
+
+/* =====================
+   LEFT SIDE CONTENT
+===================== */
+.techcombined {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.techcombined h2 {
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: 400;
+  margin-top: -160px;
+  text-transform: uppercase;
+}
+
+.techcombined h2 span {
+  opacity: 0.4;
+  margin-right: 20px;
+}
+
+/* Role */
+.techcombined h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Name */
+.techcombined h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 64px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Description */
+.techcombined p {
+  color: #D0D6F9;
+  line-height: 1.8;
+  max-width: 450px;
+  margin-bottom: 120px;
+  font-size: 18px;
+}
+
+/* =====================
+   DOT NAVIGATION
+===================== */
+.techcombined div:last-child {
+  display: flex;
+  gap: 20px;
+}
+
+.techcombined div:last-child a {
+  margin-top: -85px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: transparent;
+  opacity: 0.3;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.techcombined div:last-child a:hover {
+  opacity: 0.7;
+}
+
+.techcombined div:last-child a:first-child {
+  opacity: 1;
+}
+
+/* =====================
+   RIGHT SIDE IMAGE
+===================== */
+.techs img {
+  height: 600px;
+  object-fit: contain;
+}
